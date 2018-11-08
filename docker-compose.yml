@@ -1,0 +1,22 @@
+version: '2'
+services:
+  service1:
+    image: proba:proba
+#    ports:
+#      - "8080:8080"
+#      - "50000:50000"
+#    volumes:
+#      - jenkins_home:/var/jenkins_home
+#    mem_limit: 512000000
+#    logging:
+#      driver: "json-file"
+#      options:
+#        max-size: "100k"
+#        max-file: "10"
+#volumes:
+#  jenkins_home:
+#    external: true
+#networks:
+#  default:
+#    external:
+#      name: jenkins-network
